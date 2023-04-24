@@ -1,0 +1,12 @@
+---
+  - name: Playbook to update root password
+    hosts: "{{ match_host }}"
+    gather_facts: true
+    become: true
+    vars:
+      password: password
+    tasks:
+      - name: update the root password
+        user:
+          name: root
+          password: "{{ password | password_hash('sha512') }}"
