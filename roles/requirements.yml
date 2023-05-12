@@ -8,3 +8,7 @@
       src: https://github.com/UCHealth-CO/ansible-role-users-and-groups.git
       scm: 'git'
       version: origin/master
+    - name: ansible-role-ad-join
+      src: https://github.com/UCHealth-CO/ansible-role-ad-join.git
+      scm: 'git'
+      version: origin/master
