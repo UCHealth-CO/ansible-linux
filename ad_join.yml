@@ -1,0 +1,5 @@
+---
+  - name: Provision Server
+    hosts: "{{ match_host }}"
+    roles:
+      - role: ansible-role-ad-join
