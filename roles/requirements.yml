@@ -1,0 +1,10 @@
+---
+  roles:
+    - name: ansible-role-subscription-manager
+      src: https://github.com/UCHealth-CO/ansible-role-subscription-manager.git
+      scm: 'git'
+      version: origin/master
+    - name: ansible-role-users-and-groups
+      src: https://github.com/UCHealth-CO/ansible-role-users-and-groups.git
+      scm: 'git'
+      version: origin/master
