@@ -1,5 +1,5 @@
 ---
-  - name: Provision Epic Server
+  - name: Provision Server
     #vars:
     #  playbook_user: "{{ ansible_user | default(lookup('env', 'USER')) }}"
     hosts: "{{ match_host }}"
